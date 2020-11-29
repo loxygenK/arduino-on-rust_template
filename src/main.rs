@@ -6,7 +6,7 @@
 // so we won't use 'main' entrypoint Rust provides.
 #![no_main]
 
-// Import crate 'panic_halt' to use it as panic handler.
+// Use crate 'panic_halt' to use it as panic handler.
 extern crate panic_halt;
 
 // Here is our entrypoint.
